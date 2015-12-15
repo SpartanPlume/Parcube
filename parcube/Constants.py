@@ -6,8 +6,8 @@ Constants
 import pygame
 from pygame import *
 
-PLAYER_X = 67
-PLAYER_Y = 54
+PLAYER_X = 1
+PLAYER_Y = 4
 
 TEXT_FONT = "liberation Mono"
 TEXT_SIZE = 30
