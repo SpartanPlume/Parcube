@@ -6,8 +6,8 @@ Constants
 import pygame
 from pygame import *
 
-PLAYER_X = 41
-PLAYER_Y = 8
+PLAYER_X = 67
+PLAYER_Y = 54
 
 TEXT_FONT = "liberation Mono"
 TEXT_SIZE = 30
@@ -125,7 +125,19 @@ KEYBLOCKS = [["right_arrow.png", RED],\
              ["ctrl_key.png", BLUE],\
              ["w_key.png", BLUE],\
              ["f4_key.png", BLUE],\
-             ["f5_key.png", YELLOW]]
+             ["f5_key.png", YELLOW],\
+             ["ctrl_key.png", YELLOW],\
+             ["alt_key.png", ORANGE],\
+             ["up_arrow.png", ORANGE],\
+             ["down_arrow.png", ORANGE],\
+             ["up_arrow.png", ORANGE],\
+             ["down_arrow.png", ORANGE],\
+             ["esc_key.png", CYAN],\
+             ["f_key.png", CYAN],\
+             ["left_arrow.png", RED],\
+             ["right_arrow.png", RED],\
+             ["f4_key.png", RED],\
+             ["alt_key.png", RED]]
 
 NONE = -1
 STEPS = [[K_LEFT, K_RIGHT, NONE],       \
@@ -152,4 +164,10 @@ STEPS = [[K_LEFT, K_RIGHT, NONE],       \
          [K_a, K_z, NONE],              \
          [K_F5, NONE, K_p],             \
          [NONE, K_w, K_LCTRL],          \
-         [K_F5, K_F4, NONE]]
+         [K_F5, K_F4, NONE],            \
+         [NONE, K_LALT, K_LCTRL],       \
+         [K_UP, NONE, K_DOWN],          \
+         [NONE, K_DOWN, K_UP],          \
+         [NONE, K_f, K_ESCAPE],         \
+         [K_LEFT, K_RIGHT, NONE],       \
+         [K_LALT, NONE, K_F4]]
