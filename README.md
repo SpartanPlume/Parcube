@@ -1,7 +1,17 @@
 Hi,
 
 Here a platormer game for speedrun.
-The game is only on Linux for now and you need pygame. To launch the game, use ./start.py
+The game is on Linux and you need pygame for now and Windows.
+
+Linux:
+Download the source and install pygame:
+-for Arch: yaourt -S python-pygame
+-for Debian/Ubuntu : sudo apt-get install python-pygame
+To launch the game, use ./start.py
+
+Windows:
+Download and extract the zip: https://mega.nz/#!yFgCXJyZ!0oZEJ99UjZcF6PiVZS6QrzjuotUgZDSd28dwYljmdSY
+Launch start.exe
 
 You are a cube and you need to reach the end the most rapidly possible if you can.
 You have 3 abilities in total : go to left, go to right, jump; but you have only 2 of these abilities at one time.
