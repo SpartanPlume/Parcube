@@ -13,7 +13,7 @@ The game is on Linux and you need pygame for now and Windows.
 To launch the game, use ./start.py
 
 ### Windows:
-1. Download and extract the zip: https://mega.nz/#!yFgCXJyZ!0oZEJ99UjZcF6PiVZS6QrzjuotUgZDSd28dwYljmdSY
+1. Download and extract the zip: https://mega.nz/#!vVRn3Zra!yzbGPgjjIBI-_yKsmHzRx49EIr2ynWbAoOP-Ezxz1-g
 2. Launch start.exe
 
 ### The game:
